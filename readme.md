@@ -39,7 +39,7 @@ READ values from a file `arraydata.dat` as follows:
  
 Declare two int variables and an int array of size 8
 
-Reads the data from the file into your program.
+Reads the data from the file into your program. This should be three read commands.
 
 Prints the contents of the two variables/array.
 
