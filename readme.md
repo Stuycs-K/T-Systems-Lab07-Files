@@ -24,7 +24,9 @@ Prints out the contents of the two variables and array.
 
 If your program seems to stall at this step, it's possible that your computer doesn't have enough entropy and is waiting, you can read from /dev/urandom instead.
 
-Write the two variables to the file, replace any that existed before.
+Write the two int variables to the file, replace any that existed before.
+
+Write the array to the file. Just use a single write command (DO NOT use a loop).
 
 <strong>Urgent:</strong> write should work if there isn't already a `arraydata.dat` so it should be able to create the file when it doesn't exist. 
 I will `rm -f arraydata.dat` in my grading script, so I know your code works when the file isn't already created.
